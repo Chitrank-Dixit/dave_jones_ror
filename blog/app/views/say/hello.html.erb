@@ -1,0 +1,13 @@
+<h1>Say#hello</h1>
+<p>Find me in app/views/say/hello.html.erb</p>
+
+<%= 3.times do %>
+	<%= 2+2 %>
+	<br>Hello
+	<br><%= @yo %>
+	<br><%= @now %>
+<% end %>
+
+<%= link_to chitrank_teach_path %> <!-- automatically created the html generated link that we can just click to reach localhost:8000/chitrank/teach -->
+
+<%= link_to "Teach Chitrank", chitrank_teach_path %>
